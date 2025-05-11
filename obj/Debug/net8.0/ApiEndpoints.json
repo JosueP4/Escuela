@@ -1,0 +1,122 @@
+[
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.CursoControllers",
+    "Method": "CrearCurso",
+    "RelativePath": "api/CursoControllers/CrearCurso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoDTO",
+        "Type": "PlataformaEvaluacion.DTOs.CursoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.CursoControllers",
+    "Method": "ListaCurso",
+    "RelativePath": "api/CursoControllers/ListaCurso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PlataformaEvaluacion.DTOs.CursoDTO, PlataformaEvaluacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.EstudianteControllers",
+    "Method": "CrearEstudiante",
+    "RelativePath": "api/EstudianteControllers/CrearEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudianteDTO",
+        "Type": "PlataformaEvaluacion.DTOs.EstudianteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.EstudianteControllers",
+    "Method": "ListaEstudiantes",
+    "RelativePath": "api/EstudianteControllers/ListaEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PlataformaEvaluacion.DTOs.EstudianteDTO, PlataformaEvaluacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.ExamenControllers",
+    "Method": "CrearExamen",
+    "RelativePath": "api/ExamenControllers/CrearExamen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examenesDTO",
+        "Type": "PlataformaEvaluacion.DTOs.ExamenesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.IncripcionesControllers",
+    "Method": "IncrisbirEstudiante",
+    "RelativePath": "api/IncripcionesControllers/IncrisbirEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incripcionesDTO",
+        "Type": "PlataformaEvaluacion.DTOs.IncripcionesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.IncripcionesControllers",
+    "Method": "IncristoCurso",
+    "RelativePath": "api/IncripcionesControllers/IncristoCurso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
