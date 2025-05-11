@@ -118,5 +118,42 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.PreguntasController",
+    "Method": "BuscarExamen",
+    "RelativePath": "api/Preguntas/BuscarExamen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlataformaEvaluacion.Controllers.PreguntasController",
+    "Method": "CrearPreguntas",
+    "RelativePath": "api/Preguntas/CrearPreguntas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "preguntaDTO",
+        "Type": "PlataformaEvaluacion.DTOs.PreguntaDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "examenId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

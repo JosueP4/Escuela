@@ -171,3 +171,4 @@ C:\Users\jgrp2\source\repos\PlataformaEvaluacion\obj\Debug\net8.0\refint\Platafo
 C:\Users\jgrp2\source\repos\PlataformaEvaluacion\obj\Debug\net8.0\PlataformaEvaluacion.pdb
 C:\Users\jgrp2\source\repos\PlataformaEvaluacion\obj\Debug\net8.0\PlataformaEvaluacion.genruntimeconfig.cache
 C:\Users\jgrp2\source\repos\PlataformaEvaluacion\obj\Debug\net8.0\ref\PlataformaEvaluacion.dll
+C:\Users\jgrp2\source\repos\PlataformaEvaluacion\obj\Debug\net8.0\PlataformaEvaluacion.sourcelink.json

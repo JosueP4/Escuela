@@ -19,6 +19,8 @@ builder.Services.AddScoped<EstudianteService>();
 builder.Services.AddScoped<CursoService>();
 builder.Services.AddScoped<IncricionesService>();
 builder.Services.AddScoped<ExamenesServices>();
+builder.Services.AddScoped<PreguntasService>();
+
 
 
 

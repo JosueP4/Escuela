@@ -226,6 +226,69 @@
           }
         }
       }
+    },
+    "/api/Preguntas/CrearPreguntas": {
+      "post": {
+        "tags": [
+          "Preguntas"
+        ],
+        "parameters": [
+          {
+            "name": "examenId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreguntaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreguntaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreguntaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Preguntas/BuscarExamen": {
+      "get": {
+        "tags": [
+          "Preguntas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -305,6 +368,33 @@
           "fechaIncripcion": {
             "type": "string",
             "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PreguntaDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "examenId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "opciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "repuestaCorrecta": {
+            "type": "string",
             "nullable": true
           }
         },
